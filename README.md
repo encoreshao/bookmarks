@@ -1,50 +1,29 @@
-# Dashboard for Bookmarks - Chrome Exntesion
+# Dashboard for Bookmarks
 
-### Review already installed extensions
+**Dashboard for Bookmarks** is a powerful tool designed to enhance productivity and streamline daily activities. With Dashboard for Bookmarks, users can effortlessly manage bookmarks, extensions, downloads all accessible from the default new tab page.
 
-- Open your Chrome and visit the URL chrome://extensions - Enjoy it!
+Whether you need to manage your browser resources or keep track of daily tasks, Dashboard for Bookmarks provides a seamless and efficient user experience.
 
-  <img src="https://github.com/encoreshao/dashboard-for-bookmarks/blob/master/demo/normal-listing.png" />
+### Key Features:
 
-### Developer mode in chrome://extensions
+- Bookmark Management: Easily organize and access your bookmarks.
+- Extensions: Quick access extensions directly from the new tab page.
+- Downloads: Quick access downloads directly from the new tab page.
 
-- Check Developer mode in chrome://extensions
-- Loading your local copy of the extension on Chrome is super easy:
-- Click Load unpacked extension... and select the extension app directory
+### Screenshots
 
-To see your changes, click the Reload (Ctrl+R) link in chrome://extensions. If you want to create a Pack extension just make a zip file of the extension app directory.
+- ![Bookmark Manager](https://raw.githubusercontent.com/encoreshao/quote-master/main/src/assets/images/bookmark-manager.png)
 
-### Setting - options
+### Contributing
 
-The extension can be configured via an options page.
-To open the options page, right-click the extension icon and choose Options on the menu. You can also go to chrome://extensions and click the options link.
+Bug reports and pull requests are welcome on GitHub at https://github.com/encoreshao/bookmarks. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected.
 
-- Banner Name
-- Background Image
-- Display Mode
-- Theme
-- Clock
+To see all contributors from https://github.com/encoreshao/bookmarks/graphs/contributors
 
-  <img src="https://github.com/encoreshao/dashboard-for-bookmarks/blob/master/demo/settings.png" />
+### Contribution
 
-### How to create extensions for Chrome
+- [Encore Shao](https://github.com/encoreshao)
 
-- 1: update the version number in manifest.json
+### License
 
-  1. manifest.json - Increase version number
-
-- 2: generate release zip
-
-  1. mv ../pems/dashboards_for_bookmarks.pem key.pem
-  2. zip -r dashboards*for_bookmarks_vx_x_x.zip . -x *.git* -x *.DS*Store*
-  3. mv key.pem ../pems/dashboards_for_bookmarks.pem
-  4. mv dashboards_for_bookmarks_vx_x_x.zip ../packages
-
-- 3: upload zip file to chrome store
-
-  1. go to [Web Store](https://chrome.google.com/webstore/developer/dashboard)
-  2. choose and upload dashboards_for_bookmarks_vx_x_x.zip
-
-### Online Compress js tool
-
-- http://jscompress.com/
+Dashboard for Bookmarks is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

@@ -12,7 +12,7 @@ A step-by-step guide to creating a Chrome extension using React.
 
 ### step 1: Create React App
 
-> npx create-react-app quote-master --template typescript
+> npx create-react-app bookmarks --template typescript
 
 ### step 2: Add Webpack
 
@@ -105,9 +105,9 @@ A manifest file is used to define the metadata and permissions for a Chrome exte
 ```json
 {
   "manifest_version": 3,
-  "name": "Quote Master: Customized Efficiency Tool",
-  "version": "1.0.4",
-  "description": "Bookmarks and Extensions, Downloads and Customized Links can be accessed from the Default Newtab page.",
+  "name": "Dashboard for Bookmarks",
+  "version": "1.0.0",
+  "description": "Bookmarks and Extensions, Downloads can be accessed from the Default Newtab page.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
